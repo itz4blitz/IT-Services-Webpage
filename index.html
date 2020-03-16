@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Cabin+Condensed|Lobster|Permanent+Marker|Quattrocento+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="internal-style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title class="chrome">Indy Tech Advisor</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-light navbar-expand-md fixed-top">
+        <a href="https://indytechadvisor.com" class="navbar-brand"><span class="mb-0 h1">Indy Tech Advisor</span></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="p-2 collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item nav-fill">
+                    <a href="#" class="nav-link active">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">Services</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">FAQ</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">About Us</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="nav-link">Client Support</a>
+                </li>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+
+                    <button class="btn btn-space btn-light btn-md" type="submit">Search</button>
+                </form>
+                <button class="btn btn-space btn-secondary btn-md" data-toggle="modal"
+                    data-target="#login-modal">Register</button>
+                <div class="modal fade" id="login-modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Register An Account!</h5>
+                                <button type="button" class="close" data-dismiss="modal">
+                                    <span>&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Register An Account</p>
+                                <form>
+                                    <div class="form-group row">
+                                        <label class="col-sm-3 col-form-label" for="email">Email Address</label>
+                                        <div class="col-md-9">
+                                            <input type="text" class="form-control" id="email">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <label class="col-sm-3 col-form-label" for="password">Password</label>
+                                        <div class="col-sm-9">
+                                            <input type="password" class="form-control" id="password">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-9 offset-sm-3" <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Register</button>
+                                            <button type="button" class="btn btn-light"
+                                                data-dismiss="modal">Clear</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+                <li data-target="#carousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active" style="background-image: url('/images/code.jpeg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">Web and Application Development</h3>
+                        <p class="lead">We offer custom website and application design. No project is too big </br>
+                            or too complicated. In fact, come find out why our clients retain us to continue to support,
+                            </br>
+                            update, and develop their application and websites.
+                        </p>
+                    </div>
+                </div>
+                <!-- Slide Two - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('/images/ops.jpeg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">Managed IT Infrastructure and Operations</h3>
+                        <p class="lead">We offer flat fee and hourly rate based managed IT services. This includes </br>
+                            managed workstations, servers, tablets, switches, firewalls, cloud servers, and more.
+                            Chances are </br>
+                            if it exists in your environment, we can manage it so you can focus on managing your
+                            business.
+                        </p>
+                    </div>
+                </div>
+                <!-- Slide Three - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('/images/sec.jpeg')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4">Security Auditing</h3>
+                        <p class="lead">Our security team is able to assess your current IT landscape and pinpoint
+                            security </br>
+                            vulnerabilities. We work closely with your operations team to make the changes needed to
+                            keep your </br>
+                            ahead of the curve.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <section class="py-5">
+        <div class="container">
+            <h1 class="font-weight-light">Industry Leaders in IT Management and Consulting</h1>
+            <p class="lead">We are an area leader in managed IT services including support and operations. </br>
+                We pride ourselves in also offering software, website development, and cybersecurity services.</p>
+        </div>
+    </section>
+
+    <section class="pricing py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Free Tier -->
+                <div class="col-lg-4">
+                    <div class="card mb-5 mb-lg-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-muted text-uppercase text-center">Managed User Device</h5>
+                            <h6 class="card-price text-center">$75<span class="period">/month</span></h6>
+                            <hr>
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>PC, Mac, Android, or iOS
+                                    device</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Remote Monitoring</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Remote support</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Patch Management</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Troubleshooting
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Plus Tier -->
+                <div class="col-lg-4">
+                    <div class="card mb-5 mb-lg-0">
+                        <div class="card-body">
+                            <h5 class="card-title text-muted text-uppercase text-center">Managed Servers</h5>
+                            <h6 class="card-price text-center">$225<span class="period">/month</span></h6>
+                            <hr>
+                            <ul class="fa-ul">
+                                <ul class="fa-ul">
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Linux or Windows</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Remote Monitoring</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Remote Support</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Patch Management</li>
+                                    <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Troubleshooting
+                                    </li>
+                                </ul>
+                            </ul>
+                            <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pro Tier -->
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-muted text-uppercase text-center">Hourly Services</h5>
+                            <h6 class="card-price text-center">$105<span class="period">/hour</span></h6>
+                            <hr>
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>No contract</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>IT Support</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Software Development</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Application Development</li>
+                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Website Development</li>
+                            </ul>
+                            <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page Content -->
+    <section class="py-5">
+        <div class="container">
+            <h1 class="font-weight-light">Custom Services Available on Request</h1>
+            <p class="lead">We understand that all situations are unique. That's why we offer tailor-made services as
+                well.</br>
+                Want us to develop a website and continue to support and manage it? A website? No problem. We'll take
+                care of it.</br>
+                Contact us to setup a meeting so that we can learn about your needs. We'll put together a custom quote
+                for you for free.</p>
+        </div>
+    </section>
+
+
+    <!-- Team -->
+    <section id="team" class="pb-5">
+        <div class="container">
+            <h5 class="font-weight-light h1">Who We Are</h5>
+            <div class="row">
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="/images/0.jpg" alt="card image"></p>
+                                        <h4 class="card-title">Justin Scroggins</h4>
+                                        <p class="card-text">President</p>
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Justin Scroggins</h4>
+                                        <p class="card-text">"I work with both our existing and prospective clients to
+                                            help streamline their business processes and their IT reliance to create
+                                            expected
+                                            outcomes. I bring years of industry experience and knowledge to assist them
+                                            in this."
+                                        </p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-skype"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-google"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid"
+                                                src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_02.png"
+                                                alt="card image"></p>
+                                        <h4 class="card-title">Karlis Baisden</h4>
+                                        <p class="card-text">Operations Director</p>
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Karlis Baisden</h4>
+                                        <p class="card-text">"As the Operations Support Director, I look
+                                            for ways to ensure that we are exceeding our clients expectations while
+                                            making sure
+                                            our team is constantly working evolve in an ever growing industry."
+                                        </p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-skype"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-google"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./Team member -->
+                <!-- Team member -->
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class=" img-fluid" src="/images/cody.jpeg" alt="card image"></p>
+                                        <h4 class="card-title">Cody Rodriguez</h4>
+                                        <p class="card-text">Support Team Manager</p>
+                                        <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Cody Rodriguez</h4>
+                                        <p class="card-text">This is basic card with image on top, title, description
+                                            and button.This is basic card with image on top, title, description and
+                                            button.This is basic card with image on top, title, description and button.
+                                        </p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-skype"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                    <i class="fa fa-google"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-white">
+        <div class="container py-5">
+            <div class="row py-4">
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="images/logo.jpeg" alt="" width="180" class="mb-3">
+                    <p class="font-italic text-muted">Your local experts in managed IT operations, support,
+                        software, and web development.</p>
+                    <ul class="list-inline mt-4">
+                        <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i
+                                    class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i
+                                    class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i
+                                    class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="#" class="text-muted">Our Services</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">FAQ</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">About Us</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">Career Opportunities</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4">Clients</h6>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">Emergency Support</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">Office Location</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted"></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-lg-0">
+                    <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
+                    <p class="text-muted mb-4">Sign up for our news letter. We won't share your emails with
+                        others.</p>
+                    <div class="p-1 rounded border">
+                        <div class="input-group">
+                            <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1"
+                                class="form-control border-0 shadow-0">
+                            <div class="input-group-append">
+                                <button id="button-addon1" type="submit" class="btn btn-link"><i
+                                        class="fa fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyrights -->
+        <div class="bg-light py-4">
+            <div class="container text-center">
+                <p class="text-muted mb-0 py-2">© 2020 Indy Tech Advisor - All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- End -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>
