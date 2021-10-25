@@ -312,3 +312,12 @@ section .section-title {
     box-shadow: none;
   }
 
+#experts {
+  margin: 8px;
+  padding: 10px;
+}
+
+
+.icon-list {
+  
+}
