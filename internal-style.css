@@ -44,15 +44,10 @@ p{
  }
 
  .navbar-brand{
-    font-family: 'Lobster', cursive;
-    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-left: 2.5%;
     font-size: 20px !important;
-    text-shadow:
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+    color: slategrey;
  }
 
  .container1{
