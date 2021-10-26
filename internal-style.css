@@ -316,3 +316,7 @@ section .section-title {
 .icon-list {
   
 }
+
+.img-fluid {
+  object-fit: cover;
+}
