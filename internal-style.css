@@ -318,5 +318,5 @@ section .section-title {
 }
 
 .img-fluid {
-  object-fit: cover;
+  object-fit: cover !important;
 }
