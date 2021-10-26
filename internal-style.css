@@ -9,9 +9,6 @@ p{
     font-size: large;
   }
 
-.navbar{
-    padding: 0;
-}
 
  .btn-space{
     margin-left: 10px;
@@ -23,19 +20,17 @@ p{
  }
 
 
+
  nav .navbar-nav li a{
     color: rgb(0, 0, 0) !important;
 }
 
  .navbar-item{
-     margin-left: 10px;
-     margin-right: 10px;
-     margin-top: 10px;
-     margin-bottom: 10px;
+     margin: 10px;
  }
 
  .navbar-item a:hover { 
-     color: rgb(124, 124, 124) !important; 
+     color: rgb(29, 107, 253) !important; 
     }
 
  .form-control{
@@ -43,12 +38,6 @@ p{
      margin-right: 10px;
  }
 
- .navbar-brand{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-left: 2.5%;
-    font-size: 20px !important;
-    color: black;
- }
 
  .container1{
     border: 10px solid black;
@@ -64,12 +53,18 @@ p{
     font-family: 'Cabin Condensed', sans-serif;
  }
 
-.carousel-item{
-    margin-top: 0px;
+.carousel-caption {
+  margin-top: 1px;
 }
 
+@media (max-width: 768px) {
+  h3 {
+      font-size: 30px !important;
+  }
+}
+
+
 .carousel-first{
-    color: white;
     padding-top: 150px;
     z-index: 2;
 }
@@ -290,12 +285,13 @@ section .section-title {
 }
 
 #button-addon1 {
-    color: #fff;
+    background-color: #fff;
   }
   
   i {
     color: rgb(158, 158, 158);
   }
+
   
   .form-control::placeholder {
     font-size: 0.95rem;
@@ -307,15 +303,7 @@ section .section-title {
     box-shadow: none;
   }
 
-#experts {
-
-}
-
-
-.icon-list {
-  
-}
-
 img.img-fluid {
   object-fit: cover !important;
 }
+

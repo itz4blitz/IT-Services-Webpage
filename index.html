@@ -18,28 +18,30 @@
             <i class="fas fa-bars" style="color:rgb(0, 0, 0); font-size:28px;"></i>
         </button>
         <div class="p-2 collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ml-auto">
-                <li class="navbar-item nav-fill">
+            <ul class="navbar-nav ml-auto d-lg-flex align-items-center">
+                <li class="navbar-item nav-fill text-center">
                     <a href="#" class="nav-link active">Home</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#" class="nav-link">Services</a>
+                    <a href="#" class="nav-link text-center">Services</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#" class="nav-link">FAQ</a>
+                    <a href="#" class="nav-link text-center">FAQ</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#" class="nav-link">About Us</a>
+                    <a href="#" class="nav-link text-center">About Us</a>
                 </li>
                 <li class="navbar-item">
-                    <a href="#" class="nav-link">Client Support</a>
+                    <a href="#" class="nav-link text-center">Client Support</a>
                 </li>
-                <button class="btn btn-space btn-secondary btn-md" data-toggle="modal"
-                    data-target="#login-modal">Register</button>
+                <li class="navbar-item mx-auto">
+                    <button class="btn btn-space btn-secondary btn-md" data-toggle="modal"
+                        data-target="#login-modal">Register</button>
+                </li>
                 <div class="modal fade" id="login-modal">
                     <div class="modal-dialog">
                         <div class="modal-content">
-                            <div class="modal-header">
+                            <div class="modal-header ">
                                 <h5 class="modal-title">Register An Account!</h5>
                                 <button type="button" class="close" data-dismiss="modal">
                                     <span>&times;</span>
@@ -91,9 +93,8 @@
                 <div class="carousel-item active" style="background-image: url('./images/code.jpeg')">
                     <div class="carousel-caption">
                         <h3 class="display-4">Web and Application Development</h3>
-                        <p class="lead">We offer custom website and application design. No project is too big </br>
+                        <p class="lead text-justify">We offer custom website and application design. No project is too big
                             or too complicated. In fact, come find out why our clients retain us to continue to support,
-                            </br>
                             update, and develop their applications and websites.
                         </p>
                     </div>
@@ -102,9 +103,7 @@
                 <div class="carousel-item" style="background-image: url('./images/ops.jpeg')">
                     <div class="carousel-caption">
                         <h3 class="display-3">Managed IT Infrastructure and Operations</h3>
-                        <p class="lead">We offer flat fee and hourly rate based managed IT services. This includes </br>
-                            managed workstations, servers, tablets, switches, firewalls, cloud servers, and more.
-                            Chances are </br>
+                        <p class="lead text-justify">We offer flat fee and hourly rate based managed IT services. Chances are
                             if it exists in your environment, we can manage it so you can focus on managing your
                             business.
                         </p>
@@ -114,11 +113,9 @@
                 <div class="carousel-item" style="background-image: url('./images/sec.jpeg')">
                     <div class="carousel-caption">
                         <h3 class="display-4">Security Auditing</h3>
-                        <p class="lead">Our security team is able to assess your current IT landscape and pinpoint
-                            security </br>
-                            vulnerabilities. We work closely with your operations team to make the changes needed to
-                            keep your business </br>
-                            ahead of the curve.
+                        <p class="lead text-justify">Our security team is able to assess your current IT landscape and pinpoint
+                            security vulnerabilities. We work closely with your operations team to make the changes needed to
+                            keep your business ahead of the curve.
                         </p>
                     </div>
                 </div>
@@ -210,11 +207,9 @@
     <section class="py-5">
         <div class="container">
             <h1 class="font-weight-light">Custom Services Available on Request</h1>
-            <p class="lead">We understand that all situations are unique. That's why we offer tailor-made services as
-                well.</br>
-                Want us to develop a website and continue to support and manage it? Need a desktop software? No problem. We'll take
-                care of it.</br>
-                Contact us to setup a meeting so that we can learn about your needs. We'll put together a custom quote
+            <p class="lead text-justify">We understand that all situations are unique. That's why we offer tailor-made services as
+                well. Want us to develop a website and continue to support and manage it? Need a desktop software? No problem. We'll take
+                care of it. Contact us to setup a meeting so that we can learn about your needs. We'll put together a custom quote
                 for you for free.</p>
         </div>
     </section>
@@ -389,32 +384,33 @@
     <footer class="bg-white">
         <div class="container py-5">
             <div class="row py-4 align-items-center">
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="experts"><img src="./images/logo.jpg" alt="" width="180" class="mb-3">
-                    <p class="text">Your local experts in IT operations, managed support,
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="experts">
+                    <img class="mx-auto d-block" src="./images/logo.jpg" alt="" width="180" class="mb-3">
+                    <p class="text text-justify">Your local experts in IT operations, managed support,
                         software development, web development, and cybersecurity.
                     </p>
                 </div>
                 <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                    <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
+                    <h6 class="text-uppercase font-weight-bold mb-4 text-center">Company</h6>
                     <ul class="list-unstyled mb-0">
-                        <li class="mb-2"><a href="#" class="text-muted">Our Services</a></li>
-                        <li class="mb-2"><a href="#" class="text-muted">FAQ</a></li>
-                        <li class="mb-2"><a href="#" class="text-muted">About Us</a></li>
-                        <li class="mb-2"><a href="#" class="text-muted">Career Opportunities</a></li>
+                        <li class="mb-2 text-center"><a href="#" class="text-muted">Our Services</a></li>
+                        <li class="mb-2 text-center"><a href="#" class="text-muted">FAQ</a></li>
+                        <li class="mb-2 text-center"><a href="#" class="text-muted">About Us</a></li>
+                        <li class="mb-2 text-center"><a href="#" class="text-muted">Career Opportunities</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                    <h6 class="text-uppercase font-weight-bold mb-4">Clients</h6>
+                    <h6 class="text-uppercase font-weight-bold mb-4 text-center">Clients</h6>
                     <ul class="list-unstyled mb-0">
-                        <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
-                        <li class="mb-2"><a href="#" class="text-muted">Emergency Support</a></li>
-                        <li class="mb-2"><a href="#" class="text-muted">Office Location</a></li>
-                        <li class="mb-2"><a href="#" class="text-muted">Privacy Policy</a></li>
+                        <li class="mb-2 text-center"><a href="#" class="text-muted">Login</a></li>
+                        <li class="mb-2 text-center"><a href="#" class="text-muted">Emergency Support</a></li>
+                        <li class="mb-2 text-center"><a href="#" class="text-muted">Office Location</a></li>
+                        <li class="mb-2 text-center"><a href="#" class="text-muted">Privacy Policy</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-lg-0">
-                    <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
-                    <p class="text-muted mb-4">Sign up for our newsletter. We won't share your emails with
+                    <h6 class="text-uppercase font-weight-bold mb-4 text-center">Newsletter</h6>
+                    <p class="text-muted mb-4 text-center">Sign up for our newsletter. We won't share your emails with
                         others.</p>
                     <div class="p-1 rounded border">
                         <div class="input-group">
