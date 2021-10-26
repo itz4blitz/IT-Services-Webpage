@@ -1,9 +1,9 @@
 # Demo:
-https://justinscroggins.github.io/EFA-StoreFront-Project/
+https://justinscroggins.github.io/IT-Services-Webpage/
 
 # Background Information
 
-This project was created to demonstrate the ability to design a webpage using HTML, CSS, and Bootstrap that had a business focus. Having worked for in IT for several years, I wanted to create a website template for an IT Managed Service Provider.
+This project was created to demonstrate the ability to design a webpage using HTML, CSS, and Bootstrap that had a business focus. As someone who has worked in IT for several years, I wanted to create a website template for an IT Managed Service Provider.
 
 ## Installation
 
